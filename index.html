@@ -27,10 +27,14 @@
                   <p class="name" style="text-align: center;">
                     Ben Datsko
                   </p>
-                  <p>I am an undergraduate at the <a href="https://eecs.engin.umich.edu/">University of Michigan</a>
-                    studying Computer Science. I am currently a Research Assistant in the <a href="https://micl.engin.umich.edu/">Michigan
+                  <p>I'm an undergraduate at the <a href="https://eecs.engin.umich.edu/">University of Michigan</a>
+                    studying Computer Science. I'm also a Research Assistant in the <a
+                      href="https://micl.engin.umich.edu/">Michigan
                       Integrated Circuits Lab's</a> <a href="https://www.mpflynngroup.com/">Flynn Group</a> and
                     a Model-Based Design Engineering Intern at <a href="https://www.otis.com/">Otis</a>.
+                    <br><br>I always enjoy toying with new ideas and working on interesting projects. If you'd like to
+                    collaborate on
+                    something, please don't hesitate to reach out!
                   </p>
                   <p style="text-align:center">
                     <a href="mailto:bdatsko@umich.edu">Email</a> &nbsp;/&nbsp;
@@ -55,7 +59,8 @@
                   <h2>Research</h2>
                   <p>
                     I frequently work within the realms of mixed-signal integrated circuits, edge
-                    computing, PCB design, and embedded software. Some projects haven't been published on for a long while but are still under development. Representative titles are marked with a star *.
+                    computing, PCB design, and embedded software. Some projects haven't been published on for a long
+                    while but are still under development. Representative titles are marked with a star *.
                   </p>
                 </td>
               </tr>
@@ -65,8 +70,8 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-            <!--              Cerebro              -->
-            <tr>
+              <!--              Cerebro              -->
+              <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/cerebro.png' width="160">
@@ -98,14 +103,15 @@
                       <br>
                       <p>
                         An ASIC designed for accelerating scientific computing and machine learning
-                        in edge computing and IoT devices. Integrates self-contained ReRAM-based compute-in-memory (CIM)
+                        tasks in edge computing and IoT devices. Integrates self-contained ReRAM-based compute-in-memory
+                        (CIM)
                         tiles with a RISC-V host, delivering high efficiency and compute density.
                       </p>
                 </td>
               </tr>
 
-            <!--              beamformer              -->
-            <tr>
+              <!--              beamformer              -->
+              <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
 
@@ -131,13 +137,14 @@
 
                   <p>
                     A 28GHz digital beamformer integrated circuit featuring a 4x4 patch antenna array
-                    capable of generating multiple beams simultaneously for mm-wave communication. Beamforming is what allows signals to be "pointed" different directions in space.
+                    capable of generating multiple beams simultaneously for mm-wave communication. Beamforming is what
+                    allows signals to be "pointed" different directions in space.
                   </p>
                 </td>
               </tr>
 
-            <!--              Modulated source              -->
-            <tr>
+              <!--              Modulated source              -->
+              <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
 
@@ -161,13 +168,15 @@
 
                   <p>
                     A signal generation system incorporating an FPGA, high-frequency RF DAC,
-                    and high-frequency broadband up converter. A MATLAB script generates "circular" signal sequences (16-QAM, 64-QAM, single-tone, etc.) which are looped by the FPGA, converted to analog, and up-converted from 100 MHz to radio-frequency (28 GHz).
+                    and high-frequency broadband up converter. A MATLAB script generates "circular" signal sequences
+                    (16-QAM, 64-QAM, single-tone, etc.) which are looped by the FPGA, converted to analog, and
+                    up-converted from 100 MHz to radio-frequency (28 GHz).
                   </p>
                 </td>
               </tr>
 
-            <!--              Battery Board              -->
-            <tr>
+              <!--              Battery Board              -->
+              <tr>
                 <td style="padding:20px; padding-bottom:100px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/noise-comparision.png' width="160">
@@ -176,7 +185,8 @@
                 </td>
                 <td style="padding:20px;padding-bottom:100px;width:75%;vertical-align:middle">
                   <a>
-                    <span class="papertitle">Ultra-Low Noise 5V Power Supply for Noise-Sensitive Testing Leveraging LiPo Batteries</span>
+                    <span class="papertitle">Ultra-Low Noise 5V Power Supply for Noise-Sensitive Testing Leveraging LiPo
+                      Batteries</span>
                   </a>
                   <br>
                   <a>Benjamin Datsko</a>,
@@ -184,11 +194,11 @@
                   <a>Michael P. Flynn</a>
                   <br>
                   <p>
-                    A 5V power supply designed for noise-sensitive integrated circuit testing, utilizing 18650 LiPo
-                    battery cells, ferrite beads, and low-pass filters to eliminate high-frequency switching noise.
-                    Approximately 8.4V from USB or batteries feed into a high-PSSR 5V LDO, reducing output ripple to ~3mV Pk-Pk
-                    and ensuring a stable signal. Uses an ATmega32U4 RISC-based microcontroller to run a C++ RTOS for scheduling BMS, sensor read-in, and menu processes
-                    using the PlatformIO development environment.
+                    A 5V power supply designed for noise-sensitive integrated circuit testing, utilizing
+                    battery cells eliminate high-frequency switching noise in combination with ferrite beads for further
+                    high-frequency filtering. A 5V LDO with a high power supply rejection ratio further reduces noise
+                    bring ripple to 3mV Pk-Pk. Uses ATmega32U4 RISC microcontroller C++-based RTOS
+                    for BMS management, sensor reading, and display updates.
                   </p>
                 </td>
               </tr>
@@ -227,7 +237,9 @@
                   </a>
                   <br>
                   <p>
-                    Help tailor your resume to job postings provided a master resume! Features a React front-end, Flask endpoints for LaTeX-to-pdf conversion, OAuth-based authentication, and uses Firebase for cloud storage.
+                    Tailor resumes to job postings provided previous work experience. Features a React front-end, Flask
+                    endpoints for LaTeX-to-pdf conversion, OAuth-based authentication, and uses Firebase for cloud
+                    storage.
                   </p>
                 </td>
               </tr>
@@ -244,17 +256,81 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://https://www.solarcar.engin.umich.edu/">
-                    <span class="papertitle">University of Michigan Solar Car Team Race Simulator Dashboard and Microservice</span>
+                    <span class="papertitle">University of Michigan Solar Car Team Simulation Platform</span>
                   </a>
 
                   <p>
-                    A web platform for the U-M Solar Car Team's race physics and aerodynamics simulators. Features a React front-end,
-                    a MongoDB collection for simulation data, and a Flask app containing an API with interfaces to each simulator.
+                    A web platform for the U-M Solar Car Team's race physics and aerodynamics simulators. Features a
+                    React front-end,
+                    a MongoDB collection for simulation data, and a Flask app containing an API with interfaces to each
+                    simulator.
                   </p>
                 </td>
               </tr>
 
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
 
+                    <img src='images/quickkey-3.png' width="160">
+                  </div>
+
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://quickkey.datsko.dev/">
+                    <span class="papertitle">Quickkey - A Minimalistic Typing Test</span>
+                  </a>
+                  <br>
+                  <p>
+                    A simplistic typing speed test (measured in words per minute). Developed using Typescript,
+                    React, and NodeJS.
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+
+                    <img src='images/pathvis.png' width="160">
+                  </div>
+
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://pathvis.datsko.dev/">
+                    <span class="papertitle">PathVis - A Pathfinding Algorithm Visualizer</span>
+                  </a>
+                  <br>
+
+                  <p>
+                    A visualizer for search algorithms including Dijkstra's, A-Star Search, Greedy BFS, and Greedy DFS
+                    written in vanilla JavaScript. Deployed to Netlify.
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/tempotimer.png' width="160">
+                  </div>
+
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://github.com/bendatsko/TempoTimer">
+                    <span class="papertitle">TempoTimer - Race Pace Android App for Swimmers</span>
+                  </a>
+                  <br>
+
+                  <p>
+                    Acts as metronome for swimmers'
+                    strokes and provides an auditory simulation of swimmers' races based on inputted splits. Auditory
+                    cues are played during pre-race mental preparation sessions and provide an accurate sense of time
+                    to athletes, increasing confidence. Developed in Java using the Android SDK.
+                    Available on the Google Play Store.
+                  </p>
+                </td>
+              </tr>
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -267,8 +343,11 @@
                     <span class="papertitle">Upper-Atmospheric Weather Balloon Payload System</span>
                   </a>
                   <p>
-                    A high-altitude Arduino-based payload system (components: weather balloon, case, and PCB) equipped with a TMP36 temperature sensor, thermistor,
-                    pressure sensor, humidity sensor, accelerometer, UV sensor, GPS, OpenLog, and MicroSD writer for recording and analyzing upper-atmospheric conditions.
+                    A high-altitude Arduino-based payload system used for
+                    recording and analyzing upper-atmospheric weather conditions launched via weather balloon. Featuring
+                    PCB equipped
+                    with a TMP36 temperature sensor, thermistor,
+                    pressure sensor, humidity sensor, accelerometer, UV sensor, GPS, and OpenLog
                   </p>
                 </td>
               </tr>
@@ -280,65 +359,13 @@
 
 
 
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-
-                    <img src='images/quickkey2.png' width="160">
-                  </div>
-
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://quickkey.datsko.dev/">
-                    <span class="papertitle">Quickkey: A Minimalistic Typing Test</span>
-                  </a>
-                  <br>
-                  <p>
-                    A simplistic typing speed test. Speed measured in words per minute. Developed using Typescript, React, and NodeJS.
-                  </p>
-                </td>
-              </tr>
 
 
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-
-                    <img src='images/pathvis.png' width="160">
-                  </div>
-
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://pathvis.datsko.dev/">
-                    <span class="papertitle">PathVis: A Pathfinding Algorithm Visualizer</span>
-                  </a>
-                  <br>
-
-                  <p>
-                    A visualizer for search algorithms including Dijkstra's, A-Star Search, Greedy BFS, and Greedy DFS written in vanilla JavaScript. Deployed to Netlify.
-                  </p>
-                </td>
-              </tr>
 
 
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <img src='images/tempotimer.png' width="160">
-                  </div>
 
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://github.com/bendatsko/TempoTimer">
-                    <span class="papertitle">TempoTimer: Race Pace Android App for Swimmers</span>
-                  </a>
-                  <br>
 
-                  <p>
-                    Visualizing success is popular in sports psychology. This app acts as metronome for swimmers' strokes and provides an auditory simulation of swimmers' races based on inputted splits which can be played during visualization to increase mental confidence. Developed in Java using the Android SDK. Available on the Google Play Store.
-                  </p>
-                </td>
-              </tr>
+
 
 
 
@@ -357,7 +384,8 @@
                   </a>
                   <br>
                   <p>
-                    An RPG recreation of the Wizarding World of Harry Potter (with some semblance of a plot-line) within Minecraft. Features mini-games, quests, currency system, and much more.
+                    An RPG recreation of the Wizarding World of Harry Potter (with some semblance of a plot-line) within
+                    Minecraft. Features mini-games, quests, a currency system, and much more.
                   </p>
                 </td>
               </tr>
@@ -379,7 +407,11 @@
                   <br>
 
                   <p>
-                    An endless runner game. Our game's protagonist, the player (i.e. a red cube), happens to be very good at dodging sporadically spawning rectangular prisms. Developed using the Unity 3D Game Kit and C#. Adobe Audition and Adobe Photoshop used for creating game assets.
+                    An enthralling endless runner game where our protagonist, a red cube, moves forward and moves
+                    left/right to
+                    dodge sporadically
+                    spawning rectangular prisms. Developed using the Unity 3D Game Kit and
+                    C#. Adobe Audition and Adobe Photoshop used for creating game assets.
                   </p>
                 </td>
               </tr>
@@ -400,7 +432,10 @@
 
 
                   <p>
-                    An adventure game made in collaboration with Mojang Studios and Microsoft for the Minecraft Java Realms platform. Players act as ghost hunters and remove mischievous ghosts from a haunted manor while guided by their supervisor. Has accrued over 10 million YouTube views and over 50K downloads since publication.
+                    An adventure game made in collaboration with Mojang Studios and Microsoft for the Minecraft Java
+                    Realms platform. Players act as ghost hunters and remove mischievous ghosts from a haunted manor
+                    while guided by their supervisor. Has accrued over 10 million YouTube views and over 50K downloads
+                    since publication.
                   </p>
                 </td>
               </tr>
