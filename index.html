@@ -25,31 +25,24 @@
               <tr style="padding:0px">
                 <td style="padding:2.5%;width:63%;vertical-align:middle">
                   <p class="name" style="text-align: center;">
-                    Benjamin Datsko
+                    Ben Datsko
                   </p>
                   <p>I am an undergraduate at the <a href="https://eecs.engin.umich.edu/">University of Michigan</a>
-                    pursuing a BSE in Computer Science. I enjoy deepening my knowledge in hardware design, embedded
-                    software, and integrated systems.
+                    studying Computer Science. I am currently a Research Assistant in the <a href="https://micl.engin.umich.edu/">Michigan
+                      Integrated Circuits Lab's</a> <a href="https://www.mpflynngroup.com/">Flynn Group</a> and
+                    a Model-Based Design Engineering Intern at <a href="https://www.otis.com/">Otis</a>.
                   </p>
-
-                  <p>I am currently a Research Assistant in the <a href="https://micl.engin.umich.edu/">Michigan
-                      Integrated Circuits Lab's</a> <a href="https://www.mpflynngroup.com/">Flynn Research Group</a> and
-                    a Model-Based Design Engineering Intern at <a
-                      href="https://www.otis.com/en/us/our-company/otis-global-projects">Otis Elevator Company</a>.
-                  </p>
-
-
                   <p style="text-align:center">
                     <a href="mailto:bdatsko@umich.edu">Email</a> &nbsp;/&nbsp;
                     <a href="https://linkedin.com/in/bendatsko/">LinkedIn</a> &nbsp;/&nbsp;
                     <a href="https://github.com/bendatsko/">GitHub</a> &nbsp;/&nbsp;
-                    <a href="https://bendatsko.github.io/photography/">Photography</a>
+                    <a href="https://bendatsko.github.io/photography/">Photos</a>
                   </p>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="images/BenDatsko.jpg"><img
+                  <a href="images/avatar.jpg"><img
                       style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo"
-                      src="images/BenDatsko.jpg" class="hoverZoomLink"></a>
+                      src="images/avatar.jpg" class="hoverZoomLink"></a>
                 </td>
               </tr>
             </tbody>
@@ -61,11 +54,8 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <h2>Research</h2>
                   <p>
-                    My research focuses on high-performance mixed-signal integrated circuits, edge
-                    computing, and embedded systems. Ongoing projects that build upon the earlier work of our group are
-                    listed according to the most recent publication associated with the project for confidentiality.
-                    These entries are marked with an asterisk (*) and will be updated to reflect latest
-                    developments/publications as they become available.
+                    I frequently work within the realms of mixed-signal integrated circuits, edge
+                    computing, PCB design, and embedded software. Some projects haven't been published on for a long while but are still under development. Representative titles are marked with a star *.
                   </p>
                 </td>
               </tr>
@@ -75,15 +65,12 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-
-
-              <tr>
+            <!--              Cerebro              -->
+            <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-
                     <img src='images/cerebro.png' width="160">
                   </div>
-
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://ieeexplore.ieee.org/document/9830490">
@@ -111,17 +98,14 @@
                       <br>
                       <p>
                         An ASIC designed for accelerating scientific computing and machine learning
-                        in edge computing contexts. Integrates self-contained ReRAM-based compute-in-memory (CIM)
+                        in edge computing and IoT devices. Integrates self-contained ReRAM-based compute-in-memory (CIM)
                         tiles with a RISC-V host, delivering high efficiency and compute density.
                       </p>
                 </td>
               </tr>
 
-
-
-
-
-              <tr>
+            <!--              beamformer              -->
+            <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
 
@@ -147,24 +131,13 @@
 
                   <p>
                     A 28GHz digital beamformer integrated circuit featuring a 4x4 patch antenna array
-                    capable of generating multiple beams simultaneously for mm-wave communication. This technology
-                    assists in advancing modern cell-phone communication, radar systems, and allows emergency response
-                    drones to offer more reliable internet to disaster-stricken regions.
+                    capable of generating multiple beams simultaneously for mm-wave communication. Beamforming is what allows signals to be "pointed" different directions in space.
                   </p>
                 </td>
               </tr>
 
-
-
-
-
-
-
-
-
-
-
-              <tr>
+            <!--              Modulated source              -->
+            <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
 
@@ -187,35 +160,23 @@
                   <br>
 
                   <p>
-                    A signal generation system incorporating the ADS7-V2EBZ FPGA, AD9174 FMC EBZ high-frequency RF DAC,
-                    and ADMV1013 high-frequency broadband up converter. This setup utilizes a MATLAB function to
-                    generate "circular" signal sequences, allowing for smooth replay by the FPGA without
-                    discontinuities. Achieves 5% Error Vector Magnitude (EVM) for 64-QAM and 1% EVM for
-                    16-QAM and single-tone sequences.
+                    A signal generation system incorporating an FPGA, high-frequency RF DAC,
+                    and high-frequency broadband up converter. A MATLAB script generates "circular" signal sequences (16-QAM, 64-QAM, single-tone, etc.) which are looped by the FPGA, converted to analog, and up-converted from 100 MHz to radio-frequency (28 GHz).
                   </p>
                 </td>
               </tr>
 
-
-
-
-
-
-
-
-
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
+            <!--              Battery Board              -->
+            <tr>
+                <td style="padding:20px; padding-bottom:100px;width:25%;vertical-align:middle">
                   <div class="one">
-
                     <img src='images/noise-comparision.png' width="160">
                   </div>
 
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="padding:20px;padding-bottom:100px;width:75%;vertical-align:middle">
                   <a>
-                    <span class="papertitle">Ultra-Low Noise 5V Power Supply for Noise-Sensitive IC Testing with Dual
-                      18650 LiPo Battery Cells and Sub-3mV Pk-Pk Ripple</span>
+                    <span class="papertitle">Ultra-Low Noise 5V Power Supply for Noise-Sensitive Testing Leveraging LiPo Batteries</span>
                   </a>
                   <br>
                   <a>Benjamin Datsko</a>,
@@ -225,19 +186,16 @@
                   <p>
                     A 5V power supply designed for noise-sensitive integrated circuit testing, utilizing 18650 LiPo
                     battery cells, ferrite beads, and low-pass filters to eliminate high-frequency switching noise.
-                    Approximately 8.4V from USB or batteries feed into a high-PSSR 5V LDO, reducing output ripple and
-                    ensuring a stable and clean power source. Uses an ATmega32U4 chip and runs an RTOS programmed in C++
-                    leveraging PlatformIO for BMS and display control.
+                    Approximately 8.4V from USB or batteries feed into a high-PSSR 5V LDO, reducing output ripple to ~3mV Pk-Pk
+                    and ensuring a stable signal. Uses an ATmega32U4 RISC-based microcontroller to run a C++ RTOS for scheduling BMS, sensor read-in, and menu processes
+                    using the PlatformIO development environment.
                   </p>
                 </td>
               </tr>
 
-
-
             </tbody>
           </table>
 
-          <br />
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
@@ -265,15 +223,11 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a>
-                    <span class="papertitle">AiApply: Create Tailored Resumes Using Generative AI</span>
+                    <span class="papertitle">AiApply: Create Tailored Resumes With Generative AI</span>
                   </a>
                   <br>
-
                   <p>
-                    A web app for tailoring resumes to job postings based on previous work experience by gathering
-                    user's work history and generating tailored, ATS-friendly LaTeX resumes for each user-provided job
-                    posting. Features React front-end, Flask backend, OAuth for authentication, and Firebase Firestore;
-                    deployed on AWS EC2.
+                    Help tailor your resume to job postings provided a master resume! Features a React front-end, Flask endpoints for LaTeX-to-pdf conversion, OAuth-based authentication, and uses Firebase for cloud storage.
                   </p>
                 </td>
               </tr>
@@ -290,16 +244,12 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://https://www.solarcar.engin.umich.edu/">
-                    <span class="papertitle">WebSim: Michigan Solar Car Race Simulator Microservice</span>
+                    <span class="papertitle">University of Michigan Solar Car Team Race Simulator Dashboard and Microservice</span>
                   </a>
 
                   <p>
-                    A navigable hub for the U-M Solar Car Team's crucial simulators and race strategy tools. Built on
-                    client-server architecture featuring React Native front-end, CRUD API written in EJS for accessing
-                    MongoDB simulation storage database, and Flask simulator API for a one-size fits all means of
-                    invoking simulators written in various languages (Java, C, etc.) via the subprocess method and
-                    piping output to a centralized location. Hosted on AWS EC2, served using Nginx; PM2 used for
-                    container orchestration, and Certbot 2 used for domain management.
+                    A web platform for the U-M Solar Car Team's race physics and aerodynamics simulators. Features a React front-end,
+                    a MongoDB collection for simulation data, and a Flask app containing an API with interfaces to each simulator.
                   </p>
                 </td>
               </tr>
@@ -309,8 +259,32 @@
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
+                    <img src='images/appogee.png' width="160">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://gerald.datsko.dev/">
+                    <span class="papertitle">Upper-Atmospheric Weather Balloon Payload System</span>
+                  </a>
+                  <p>
+                    A high-altitude Arduino-based payload system (components: weather balloon, case, and PCB) equipped with a TMP36 temperature sensor, thermistor,
+                    pressure sensor, humidity sensor, accelerometer, UV sensor, GPS, OpenLog, and MicroSD writer for recording and analyzing upper-atmospheric conditions.
+                  </p>
+                </td>
+              </tr>
 
-                    <img src='images/quickkey-3.png' width="160">
+
+
+
+
+
+
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+
+                    <img src='images/quickkey2.png' width="160">
                   </div>
 
                 </td>
@@ -320,43 +294,10 @@
                   </a>
                   <br>
                   <p>
-                    A modern and minimalistic website designed to help evaluate and improve typing speed and
-                    accuracy. Developed using Typescript and React. Prototyped in Figma.
+                    A simplistic typing speed test. Speed measured in words per minute. Developed using Typescript, React, and NodeJS.
                   </p>
                 </td>
               </tr>
-
-
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-
-                    <img src='images/appogee.png' width="160">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://gerald.datsko.dev/">
-                    <span class="papertitle">Upper-Atmospheric Weather Balloon Payload System</span>
-                  </a>
-
-
-
-                  <p>
-                    A high-altitude Arduino-based payload system equipped with a TMP36 temperature sensor, thermistor,
-                    pressure sensor, humidity sensor, accelerometer, UV sensor, and GPS for the purpose of analyzing the
-                    state of the ozone layer.
-                  </p>
-                </td>
-              </tr>
-
-
-
-
-
-
-
-
-
 
 
               <tr>
@@ -369,14 +310,12 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://pathvis.datsko.dev/">
-                    <span class="papertitle">PathVis: VanillaJS Pathfinding Algorithm Visualizer</span>
+                    <span class="papertitle">PathVis: A Pathfinding Algorithm Visualizer</span>
                   </a>
                   <br>
 
                   <p>
-                    A pathfinding algorithm visualizer with the capacity to visualize a variety of algorithms, including
-                    Dijkstra's, A-Star, Greedy BFS, and Greedy DFS. Written in Vanilla JavaScript. Prototyped in Adobe
-                    XD and Adobe Photoshop. Static site hosted by Netlify.
+                    A visualizer for search algorithms including Dijkstra's, A-Star Search, Greedy BFS, and Greedy DFS written in vanilla JavaScript. Deployed to Netlify.
                   </p>
                 </td>
               </tr>
@@ -385,22 +324,18 @@
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-
                     <img src='images/tempotimer.png' width="160">
                   </div>
 
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://github.com/bendatsko/TempoTimer">
-                    <span class="papertitle">TempoTimer: Race Race Preparation for Swimmers</span>
+                    <span class="papertitle">TempoTimer: Race Pace Android App for Swimmers</span>
                   </a>
                   <br>
 
                   <p>
-                    A mobile application that functions as an underwater metronome for swimmers' pre-race
-                    visualizations. It combinesn auditory cues with mental imagery, ensuring each stroke visualized by
-                    the athlete is in sync with the the rhythm set within the app, and thus their goal time. Developed
-                    in Java using the Android SDK. Available on the Google Play Store.
+                    Visualizing success is popular in sports psychology. This app acts as metronome for swimmers' strokes and provides an auditory simulation of swimmers' races based on inputted splits which can be played during visualization to increase mental confidence. Developed in Java using the Android SDK. Available on the Google Play Store.
                   </p>
                 </td>
               </tr>
@@ -416,22 +351,13 @@
 
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2310.07204">
+                  <a href="https://gamerant.com/harry-potter-minecraft-rpg-witchcraft-and-wizardry/">
                     <span class="papertitle">Witchcraft and Wizardry - The Floo Network (RPG)
                     </span>
                   </a>
                   <br>
-                  <a
-                    href="https://www.planetminecraft.com/project/harry-potter-adventure-map-3347878/">Download</a>&nbsp;/&nbsp;
-                  <a href="https://gamerant.com/harry-potter-minecraft-rpg-witchcraft-and-wizardry/">GameRant</a>
-
-                  <br>
-
                   <p>
-                    A role-playing game that merges the realm of Harry Potter with Minecraft. Cast spells, brew potions,
-                    earn coins, and shop for magical gear. Take flight on broomsticks, solve riddles, and undertake over
-                    100 quests to uncover hidden secrets. Explore Hogwarts Castle, Central London, Diagon Alley, the
-                    Ministry of Magic, and more! Suited for singleplayer and multiplayer.
+                    An RPG recreation of the Wizarding World of Harry Potter (with some semblance of a plot-line) within Minecraft. Features mini-games, quests, currency system, and much more.
                   </p>
                 </td>
               </tr>
@@ -453,9 +379,7 @@
                   <br>
 
                   <p>
-                    A simplistic endless runner game where the player acts as a cube within a white voide joyously
-                    traveling in a straight
-                    line at terminal velocity while also dodging spontaneously spawning rectangular prisms.
+                    An endless runner game. Our game's protagonist, the player (i.e. a red cube), happens to be very good at dodging sporadically spawning rectangular prisms. Developed using the Unity 3D Game Kit and C#. Adobe Audition and Adobe Photoshop used for creating game assets.
                   </p>
                 </td>
               </tr>
@@ -473,24 +397,10 @@
                   <a href="https://www.minecraft.net/en-us/article/new-realms-spirit-strategy-and-sheep">
                     <span class="papertitle">Annoying Ghosts - Minecraft Realms (Adventure)</span>
                   </a>
-                  <br>
-                  <a href="https://www.minecraft.net/en-us/article/new-realms-spirit-strategy-and-sheep">
-                    Minecraft.net</a> &nbsp;/&nbsp;
-                  <a href="https://www.minecraftmaps.com/adventure-maps/annoying-ghosts/">Download</a> &nbsp;/&nbsp;
-                  <a href="https://www.youtube.com/watch?v=fasz17vBZhM">Playthrough</a>
-
 
 
                   <p>
-                    Stationed at a haunted manor brimming with weightless, amorphous specters, players are used to their
-                    usual ghost-removal duties. In this game, however, players enter the narrative with a frantic phone
-                    call from Dr. Brasington, who complains of a paintbrush-eating ghost disrupting her renovation
-                    efforts! Now it becomes your mission to capture and relocate these one-of-a-kind spectral nuisances
-                    from her estate and restore her peaceful residence. Guided by your supervisor, Benedict, through a
-                    headset radio, prepare for complete annoyance as you chase after ghosts with your trusty
-                    Suck-o-Munga 3000. Singleplayer and multiplayer friendly!
-
-
+                    An adventure game made in collaboration with Mojang Studios and Microsoft for the Minecraft Java Realms platform. Players act as ghost hunters and remove mischievous ghosts from a haunted manor while guided by their supervisor. Has accrued over 10 million YouTube views and over 50K downloads since publication.
                   </p>
                 </td>
               </tr>
