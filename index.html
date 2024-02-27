@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
@@ -22,10 +22,11 @@
                         <p class="name" style="text-align: center;">
                             Ben Datsko
                         </p>
-                        <p>Undergraduate at the <a href="https://eecs.engin.umich.edu/">University of
-                            Michigan</a> studying Computer Science. Research Assistant in the <a
+                        <p>I am an undergraduate at the <a href="https://eecs.engin.umich.edu/">University of
+                            Michigan</a> studying Computer Science and an Assistant Research Scientist in the <a
                                     href="https://micl.engin.umich.edu/">Michigan
-                                Integrated Circuits Lab's</a> <a href="https://www.mpflynngroup.com/">Flynn Group</a>. Model-Based Design Engineering Intern at <a href="https://www.otis.com/">Otis</a>.
+                                Integrated Circuits Lab's</a> <a href="https://www.mpflynngroup.com/">Flynn Group</a>. I am also a Software Engineering Intern (Model-Based Design) at <a href="https://www.otis.com/">Otis.</a>
+
 
                         </p>
                         <p style="text-align:center">
@@ -51,7 +52,7 @@
                     <td style="padding:20px;width:100%;vertical-align:middle">
                         <h2>Research</h2>
                         <p>
-                            I often work with mixed-signal integrated circuits, PCB design, and embedded software. In-progress projects that build upon past papers are represented by their most recent publication and are marked with an asterisk.
+                            I am interested in embedded software, CS theory, and VLSI design (focus on mixed-signal and analog computing). In-progress projects are marked with an asterisk.
                         </p>
                     </td>
                 </tr>
@@ -60,6 +61,14 @@
             <table
                     style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
+                <!--              3SAT Chip              -->
+
+                <!--              LDPC Chip              -->
+
+
+
+
+
                 <!--              Cerebro              -->
                 <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
@@ -92,13 +101,12 @@
                               Circuits)</em>
                               <br>
                               <p>
-                                 An ASIC designed for accelerating scientific computing and machine learning
-                                 tasks in edge computing and IoT devices. Integrates self-contained ReRAM-based compute-in-memory
-                                 (CIM)
-                                 tiles with a RISC-V host, delivering high efficiency and compute density.
+                                 An ASIC for accelerating scientific computing and machine learning tasks in edge computing and IoT devices. Integrates self-contained ReRAM-based compute-in-memory
+                                 (CIM) tiles with a RISC-V host, delivering high efficiency and compute density.
                               </p>
                     </td>
                 </tr>
+
                 <!--              Beamformer              -->
                 <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
@@ -148,10 +156,9 @@
                         <a>Michael P. Flynn</a>
                         <br>
                         <p>
-                            A signal generator incorporating an FPGA, high-frequency RF DAC,
-                            and high-frequency broadband up converter. A MATLAB script generates loop-able signal
-                            sequences (16-QAM, 64-QAM, single-tone, etc.) run by the FPGA, converted to an analog equivalent, and
-                            up-converted from 100 MHz to radio-frequency (28 GHz).
+                            Signal generator incorporating an FPGA, high-frequency RF DAC,
+                            and high-frequency broadband up converter. MATLAB script generates a looping signal
+                            sequence (16-QAM, 64-QAM, single-tone, etc.), programs to FPGA, sends signal to DAC, and DAC output is converted from 100 MHz to RF (28 GHz).
                         </p>
                     </td>
                 </tr>
@@ -173,8 +180,7 @@
                         <a>Michael P. Flynn</a>
                         <br>
                         <p>
-                            A 5V power supply designed for noise-sensitive integrated circuit testing. The use of battery cells eliminates high-frequency switching noise. Further filtering on low-inductance 5V plane provided by ferrite bead for high frequencies. 5V LDO with a high power supply rejection ratio further reduces
-                            output ripple (~3mV Pk-Pk). Employs ATmega32U4 microcontroller and C++-based RTOS for BMS management, sensor reading, and display updates.
+                            A 5V power supply with extremely low noise for mixed-signal IC testing, equipped with C++-based RTOS and BPS. Output ripple (~3mV Pk-Pk). Rationale is to mitigate the need for prohibitively expensive/ ultra-low-noise LDOs on chip eval boards.
                         </p>
                     </td>
                 </tr>
@@ -202,12 +208,11 @@
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                         <a>
-                            <span class="papertitle">AiApply: Tailor Resumes Using Generative AI</span>
+                            <span class="papertitle">AiApply - Personalized Resume Tailoring</span>
                         </a>
                         <br>
                         <p>
-                            Tailor resumes to job postings provided previous work experience. Features React front-end, Flask endpoints for interfacing with GPT-4 API for resume generation and LaTeX-to-pdf conversion, OAuth-based authentication, and Firebase for
-                            cloud storage.
+                            Create your master resume, and we'll suggest what to add to your job-specific resumes to maximize your chances of being seen by employers. Simply touch up the resumes we generate to your liking and poof - done. Tech stack: React front-end, Flask endpoints for LaTeX-to-pdf conversion, OAuth2, and Firebase Firestore. Powered by GPT-4.
                         </p>
                     </td>
                 </tr>
@@ -224,8 +229,7 @@
                         </a>
                         <p>
                             Web platform for the U-M Solar Car Team's race physics and aerodynamics simulators.
-                            Features React front-end, MongoDB for simulation storage, and Flask-based API with interfaces
-                            to each simulator.
+                            Tech stack: React, MongoDB, Flask, Node, C++, Java.
                         </p>
                     </td>
                 </tr>
@@ -242,7 +246,7 @@
                         </a>
                         <br>
                         <p>
-                            A typing speed test developed in Typescript, React, and NodeJS.
+                            A typing speed test. Choose from 3 different test durations. Tech stack: React, Typescript, and Node.
                         </p>
                     </td>
                 </tr>
@@ -259,7 +263,7 @@
                         </a>
                         <br>
                         <p>
-                            A visualizer for search algorithms such as Dijkstra's, A-Star, BFS, and DFS. Written in Vanilla JavaScript. Deployed to Netlify.
+                            A visualizer for search algorithms such as Dijkstra's, A-Star, BFS, and DFS. Tech stack: JavaScript.
                         </p>
                     </td>
                 </tr>
@@ -292,12 +296,7 @@
                             <span class="papertitle">Upper-Atmospheric Weather Balloon Payload System</span>
                         </a>
                         <p>
-                            A high-altitude Arduino-based payload system used for
-                            recording and analyzing upper-atmospheric weather conditions launched via weather balloon.
-                            Featuring
-                            PCB equipped
-                            with a TMP36 temperature sensor, thermistor,
-                            pressure sensor, humidity sensor, accelerometer, UV sensor, GPS, and OpenLog
+                            A high-altitude weather balloon payload system for atmospheric monitoring and ultraviolet radiation detection. PCB design in Altium. Firmware written in C++. More info available <a href="https://gerald.datsko.dev/">here</a>.
                         </p>
                     </td>
                 </tr>
@@ -346,7 +345,7 @@
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                         <a href="https://www.minecraft.net/en-us/article/new-realms-spirit-strategy-and-sheep">
-                            <span class="papertitle">Annoying Ghosts - Minecraft Realms (Adventure)</span>
+                            <span class="papertitle">Annoying Ghosts - Mojang Studios</span>
                         </a>
                         <p>
                             An adventure game made in collaboration with Mojang Studios and Microsoft for the Minecraft
@@ -356,6 +355,8 @@
                         </p>
                     </td>
                 </tr>
+
+
                 </tbody>
             </table>
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
